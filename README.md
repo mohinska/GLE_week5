@@ -1,15 +1,15 @@
 # GLE_week5
 # Films
 
-group_films.py – solution implemented working in group
+**group_films.py** – solution implemented working in group
 
 
-chatgpt_films.py – solution implemented by ChatGPT
+**chatgpt_films.py** – solution implemented by ChatGPT
 
 
 This project provides a Python-based solution for filtering and displaying top-rated movies from a dataset. Users can specify the genre, release year, and number of top-rated movies they want to view. The application returns a list of movies that match the user’s criteria, ordered by rating in descending order.
 
-Project Structure
+## Project Structure
 - read_file(pathname: str, year: int=0)
 Reads data from a specified file path, filtering movies from the year provided or later. It returns a list of lists, where each inner list contains details of a movie entry. If no year is provided, all entries are included.
 - top_n(data: list, genre: str='', n: int=0)
